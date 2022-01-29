@@ -5,7 +5,7 @@ Então, cada branch é uma linguagem de programação, framework ou BD, enfim qu
 Terá aquivos em word, terá os exercicios feitos, anotações e links. 
 Tudooo public para nosotros!!!
 
-Bom, quiser saber o que eu estudo,acessa aí. 
+Bom, quiser saber o que eu estudo, acessa aí. 
 É noisss!
 
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
