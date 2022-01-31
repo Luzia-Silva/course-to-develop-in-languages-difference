@@ -1,0 +1,11 @@
+## O que são variáveis globais?
+JavaScript tem um objeto especial, chamado um objeto global (Global Object), ele e todos os seus atributos
+podem ser acessados ​​em qualquer lugar do programa, a variável global.
+Navegador JavaScript geralmente é global janela de objeto, o objeto global Node.js é global, todas as variáveis
+ ​​globais (excepto si global) são de propriedade de objeto global.
+Em Node.js-nos acesso direto às propriedades globais, sem a necessidade de incluí-lo no aplicativo.
+
+Link:
+http://www.w3big.com/pt/nodejs/nodejs-global-object.html#:~:text=processo%20%C3%A9%20uma%20vari%C3%A1vel%20global,finalmente%2C%20para%20lidar%20com%20ele.
+Link NodeJs sobre as Globals:
+https://nodejs.org/dist/latest-v17.x/docs/api/globals.html
