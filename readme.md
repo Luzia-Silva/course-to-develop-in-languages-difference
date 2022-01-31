@@ -10,4 +10,4 @@ Ryan Dahl (O cara topzeiro) e sua equipe. (Maravilhosa)
 Eu acredito que todo desenvolver de aplicações com Javascript precisa aprender, até porque é um ambiente de execução de Javascript. Então, bora aprender!
 
 
-![Alt Text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cmarix.com%2Fblog%2Fnodejs-vs-go-comparing-the-key-strengths-of-leading-programming-languages%2F&psig=AOvVaw2smPYKQdx4-DOBSzSuWu5M&ust=1643735604872000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLDcw9m-3PUCFQAAAAAdAAAAABAt)
+![Alt Text](https://media.giphy.com/media/SvcIZouMTdCPlT2IL3/giphy.gif)
