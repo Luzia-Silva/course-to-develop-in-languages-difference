@@ -11,13 +11,3 @@ Eu acredito que todo desenvolver de aplicações com Javascript precisa aprender
 
 
 ![Alt Text](https://media.giphy.com/media/SvcIZouMTdCPlT2IL3/giphy.gif)
-
-## O que são Modulos ?
-No Node.js, um module é uma coleção de funções e objetos do JavaScript que podem ser utilizados por aplicativos externos. Descrever um trecho de código como um módulo se refere menos ao que o código é do que aquilo que ele faz — qualquer arquivo Node.js pode ser considerado um módulo caso suas funções e dados sejam feitos para programas externos.
-
-Link: https://www.digitalocean.com/community/tutorials/how-to-create-a-node-js-module-pt
-
-## o que o path?
-Ele é um modulo presente na documentação oficial do Nodejs, para ver suas aplicabilidade acesse a documentação. 
-
-## O que o require?
