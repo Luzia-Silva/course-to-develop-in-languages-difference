@@ -11,7 +11,7 @@ A se comunicar com processo enquanto ele estiver rodando<br>
 [] process.stdout<br>
 [] process.stdin<br>
 
-*Assincronismo<br><br>
+*Assincronismo<br>
 ## O que o process.stdin.on();?
 A propriedade process.stdin é uma interface de programação de aplicativos embutida do módulo de processo que escuta a entrada do usuário. A propriedade stdin do objeto de processo é um fluxo legível. Ele usa a função on() para ouvir o evento.<br>
 
