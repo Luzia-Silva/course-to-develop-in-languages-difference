@@ -1,5 +1,7 @@
 //Lista de argumentos
 console.log(process.argv)//ele é um array 
+//A process.argvpropriedade retorna uma matriz contendo os argumentos
+// de linha de comando passados ​​quando o processo Node.js foi iniciado.
 
 //armazenando os vetores do process
 const firstname = process.argv[2]
