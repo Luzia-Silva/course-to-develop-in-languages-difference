@@ -9,5 +9,7 @@ Ryan Dahl (O cara topzeiro) e sua equipe. (Maravilhosa)
 ## Qual a importância de aprender usar o NodeJS?
 Eu acredito que todo desenvolver de aplicações com Javascript precisa aprender, até porque é um ambiente de execução de Javascript. Então, bora aprender!
 
+## Curso Feito na Rocketseat✨🎈
+Link: https://app.rocketseat.com.br/node/node-js-o-motor-da-nave/group/events/lesson/herdando-do-event-emitter
 
 ![Alt Text](https://media.giphy.com/media/SvcIZouMTdCPlT2IL3/giphy.gif)
