@@ -16,4 +16,4 @@ Uma meneira de trabalharmos com tempo dentro do NodeJs.
 Uma função callback é uma função passada a outra função como argumento, que é então invocado dentro da função externa para completar algum tipo de rotina ou ação.<br>
 Link: https://youtu.be/jFfg_IdZAc8?t=5
 
-![Alt Text](https://media.giphy.com/media/3o7TKwfBBGN114QQRq/giphy.gif)
+![Alt Text](https://media.giphy.com/media/LXiElF2dzvUmQ/giphy.gif)
