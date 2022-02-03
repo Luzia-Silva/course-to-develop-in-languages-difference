@@ -14,4 +14,4 @@ Alura: https://cursos.alura.com.br/course/javascritpt-orientacao-objetos
 Youtube: https://www.youtube.com/watch?v=BXqUH86F-kA&list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm
 
 ## Dica de Ourooo!
-Comece com os Gustavo Guanabara o pai do dev, eu comecei com ele e depois fui para a Rocketseat e depois  a Alura. ✨🎈
+Comece com os Gustavo Guanabara o pai do dev, eu comecei com ele, e depois fui para a Rocketseat e depois  a Alura. ✨🎈
