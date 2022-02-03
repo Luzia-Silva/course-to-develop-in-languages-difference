@@ -9,9 +9,9 @@ Para nos estamos estudando para ser dev web temos que aprender, porque você pod
 Então amor vamos estudar e pronto hehehehe 
 Aqui vou colocar os links dos cursos que eu fiz
 
-Rocketseat: https://app.rocketseat.com.br/node/o-guia-estelar-de-java-script
-Alura: https://cursos.alura.com.br/course/javascritpt-orientacao-objetos
-Youtube: https://www.youtube.com/watch?v=BXqUH86F-kA&list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm
+Rocketseat: https://app.rocketseat.com.br/node/o-guia-estelar-de-java-script <br>
+Alura: https://cursos.alura.com.br/course/javascritpt-orientacao-objetos <br>
+Youtube: https://www.youtube.com/watch?v=BXqUH86F-kA&list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm <br>
 
 ## Dica de Ourooo!
 Comece com os Gustavo Guanabara o pai do dev, eu comecei com ele, e depois fui para a Rocketseat e depois  a Alura. ✨🎈
