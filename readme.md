@@ -5,9 +5,9 @@ Já sei javascript, entretanto vejo que tenho dificuldade com  a orientação a 
 ## Porque aprender orientação a objeto?
 Simples, para orientar objetos na linguagem. 
 ## Qual a importância de estudar javascript?
-Para nos estamos estudando para ser dev web temos que aprender, porque você pode querer ficar só no front com css na unha, até que não precisa saber muito, só que para abrir seu menu bonitinho tu vai precisar de uma logicazinha marotinha.
-Então amor vamos estudar e pronto hehehehe 
-Aqui vou colocar os links dos cursos que eu fiz
+Para nos estamos estudando para ser dev web temos que aprender, porque você pode querer ficar só no front com css na unha, até que não precisa saber muito, só que para abrir seu menu bonitinho tu vai precisar de uma logicazinha marotinha.<br>
+Então amor vamos estudar e pronto hehehehe <br>
+Aqui vou colocar os links dos cursos que eu fiz.<br>
 
 Rocketseat: https://app.rocketseat.com.br/node/o-guia-estelar-de-java-script <br>
 Alura: https://cursos.alura.com.br/course/javascritpt-orientacao-objetos <br>
