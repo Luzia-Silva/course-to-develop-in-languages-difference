@@ -12,4 +12,4 @@ Eu acredito que todo desenvolver de aplicações com Javascript precisa aprender
 ## Curso Feito na Rocketseat✨🎈
 Link: https://app.rocketseat.com.br/node/node-js-o-motor-da-nave/group/events/lesson/herdando-do-event-emitter
 
-![Alt Text](https://media.giphy.com/media/SvcIZouMTdCPlT2IL3/giphy.gif)
+![Alt Text](https://media.giphy.com/media/hL2drrlDYvkrs6oFig/giphy.gif)
