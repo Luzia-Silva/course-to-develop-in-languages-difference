@@ -70,4 +70,4 @@ Como uma pilha de livros.
 
 - O último elemento a entar na pilha, aquele elemento do topo da pilha, é o primeiro a sair.
 
-![alt text](../../assets/lifo.png)
+![alt text](assets/lifo.png)
