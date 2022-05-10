@@ -1,19 +1,73 @@
-## Programando a orientação a Objetos
-Esse curso é da Alura, onde tem a carga de 10hrs. 
-Já sei javascript, entretanto vejo que tenho dificuldade com  a orientação a objeto dessa linguagenzinha marota. 
+## Conceitos sobre Estruturação de Dados
 
-## Porque aprender orientação a objeto?
-Simples, para orientar objetos na linguagem. 
-## Qual a importância de estudar javascript?
-Para nos estamos estudando para ser dev web temos que aprender, porque você pode querer ficar só no front com css na unha, até que não precisa saber muito, só que para abrir seu menu bonitinho tu vai precisar de uma logicazinha marotinha.<br>
-Então amor vamos estudar e pronto hehehehe <br>
-Aqui vou colocar os links dos cursos que eu fiz.<br>
+# Porque estudar estrutura de dados?
 
-Rocketseat: https://app.rocketseat.com.br/node/o-guia-estelar-de-java-script <br>
-Alura: https://cursos.alura.com.br/course/javascritpt-orientacao-objetos <br>
-Youtube: https://www.youtube.com/watch?v=BXqUH86F-kA&list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm <br>
+- Organizar os dados da aplicação
+- Entender estruturas para melhor tomada de decisão
+- Escrever melhores algoritmos
+- Eficiência
+- Algumas empresas usam como requisito
 
-## Dica de Ourooo!
-Comece com os Gustavo Guanabara o pai do dev, eu comecei com ele, e depois fui para a Rocketseat e depois  a Alura. ✨🎈
+# Por que estrutura de dados ?
 
-![Alt Text](https://media.giphy.com/media/l4Ep4XOZVkhKziCGs/giphy.gif)
+Alguns <b>desafios diários</b> de uso de dados são:
+
+- Entenimento de como estão nossos dados na aplicação
+- Criar lista (ordenadas, não ordenadas)
+- Repetir ou não dos dados dentro da estrutura
+- Organizar os dados pelo par identificador + valor
+
+# <b>O que é</b> estrutura de dados?
+
+Imagine um guarda roupas...
+
+- Uma maneira de organizar e ordenar informações como textos, números, booleanos, etc registrá-los na memória do compuatador.
+- Organizar dados (informações) -> Textos, números, booleanos...
+- Como estão registrados na memória
+
+# Array
+
+[1,2,3] //elementos 1,2,3
+
+# Object
+
+{name: 'Fulano', idade: 20} //elementos name: name: 'Fulano', idade: 20
+
+# <b>Gerenciamento </b> dados
+
+Estrutura de dados tem a ver com a gestão das informações de aplicação.<br>
+
+Para esse gerenciamento, podemos dividir em <b>3 etapas:</b>
+
+1. Modelar a estrutura;
+2. Dar vida à estrutura (instanciar essa estrutura);
+3. Criar as funcionalidades dessa estrutura.
+
+- Exemplo: inserir, excluir, buscar, exibir, contar...
+
+## Array
+
+Array, vetor ou arranjo, é uma estrutura amplamente utilizada e implementada em quase todas as linguagens de programação. <br>
+
+Uma das estruturas mais básicas, simples de criar e utilizar.<br>
+['a', 10, 'd', true] Total de 4 elementos <br>
+// 0, 1 , 2, 3
+
+# Matrix ou vetor multidimencional
+
+Matriz ou Vetor multidimensional. <br>
+Significa que é um Array, dentro de outro array. Poderemos ter muitos níveis.
+
+# Stack
+
+Tradução de Stack é pilha. <br>
+Como uma pilha de livros.
+
+- linear, um após o outro.
+- o último a entrar na pilha é primeiro a sair.
+
+# LIFO: Last In First Out
+
+- O último elemento a entar na pilha, aquele elemento do topo da pilha, é o primeiro a sair.
+
+![alt text](../../assets/lifo.png)
