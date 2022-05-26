@@ -71,3 +71,13 @@ Como uma pilha de livros.
 - O último elemento a entar na pilha, aquele elemento do topo da pilha, é o primeiro a sair.
 
 ![alt text](assets/lifo.png)
+
+# Stack <b> no código</b>
+
+Métodos fundamentais
+
+- push(): adicionar um elemento à pilha
+- pop(): remover o elemento do topo da pilha
+- peek(): obter o elemento do topo da pilha
+
+Outros métodos poderão ser implementados como <b>size()</b> para mostrar o tamanho da pilha.
