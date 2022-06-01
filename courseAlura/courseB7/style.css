@@ -1,0 +1,35 @@
+.generic-div{
+  margin: 2rem;
+}
+
+input{
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+  width: 300px;
+}
+h1 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 30px;
+  }
+
+button {
+    background-color: blueviolet;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    color: white;
+    border: none;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.azul{
+  color: blue;
+}
+.red{
+  color: red;
+}
+.pink{
+  color: rgb(255, 0, 247);
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500&family=Roboto+Flex:opsz,wght@8..144,500&display=swap"
+  rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <style type="text/css">
+    *{
+      font-family: 'Roboto Flex', sans-serif;
+      text-align: center;
+    }
+    .delta-result{
+      display:none;
+    }
+  </style>
+  <div>
+    <div id="ask" style="padding: 1rem">
+      <h1>Equação do 2º grau</h1>
+      <label>a</label>
+      <input id="a" type="text" placeholder="valor de a" />
+      <label>b</label>
+      <input id="b" type="text" name="b" placeholder="valor de b" />
+      <label>c</label>
+      <input id="c" type="text" name="c" placeholder="valor de c" /><br><br>
+      <button onclick="send()" id="button" type="button">Enviar</button>
+    </div>
+    <div style="padding: 1rem">
+      <h1>Cálculo:</h1>
+      <h3 id="ask-exemple"></h3>
+      <h3 id="ask-result"></h3>
+      <h3 id="ask-delta"></h3>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    function send() {
+      
+      a = document.getElementById('a').value;
+      b = document.getElementById('b').value;
+      c = document.getElementById('c').value;
+    //eleva quadrado e você escolhe o expoente
+      askB = Math.pow(b, 2)
+      askA = -4*a*c
+      delta = askB + askA
+      document.getElementById('ask').classList.add('delta-result');
+      document.getElementById('ask-exemple').innerHTML = 'Δ = ' + b +'²'+ ' -4. ' + a + ' . ' + c
+      document.getElementById('ask-result').innerHTML = 'Δ = ' + askB + ' + ' + askA;
+      document.getElementById('ask-delta').innerHTML = 'Δ = ' + delta;
+    }
+  </script>
+</body>
+
+</html>
