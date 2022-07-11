@@ -1,31 +1,24 @@
 import {Cliente} from './Cliente.js';
 import { contaCorrente } from './ContaCorrente.js';
+
 //Cliente 
 // a variavel clienteOne está armazenando o as propriedades no novo cliente
-const clienteOne = new Cliente();
-const clienteTwo = new Cliente();//você está inserindo novo cliente com new 
-//o new ele executa a classe e insere valores nela 
-clienteOne.nome = "Luzia";
-clienteOne.cpf = 1234556;
-
-clienteTwo.nome = 'Josimar';
-clienteTwo.cpf = 565656;
+//exemplo utilizando com constructor
+const clienteOne = new Cliente("Luzia",1234556);
+const clienteTwo = new Cliente('Josimar',565656);//você está inserindo novo cliente com new
+//o new ele executa a classe e insere valores nela
 //Para acessar os atributos  basta usar o ponto, assim você tem acesso aos atributos da classe
 
-//Informações do Cliente 1
-const contaCorrenteLuzia = new contaCorrente();
-contaCorrenteLuzia.agencia = 1001;
-contaCorrenteLuzia.Cliente = clienteOne;
+//Informações da conta corrente cliente 1
+const contaCorrenteLuzia = new contaCorrente(1001, clienteOne);
 
-const contaCorrenteJosimar = new contaCorrente();
-contaCorrenteJosimar.agencia = 66666;
-contaCorrenteJosimar._saldo = 0.5;
-// //Realizar deposito
-// contaCorrenteLuzia.depositar(300)
+//Informações da conta corrente cliente 2
+const contaCorrenteJosi = new contaCorrente(66666, clienteTwo);
 
-// //Valor sacado 
-// //operação de subtração de valorSacado com valor da contaCorrente
-// const valorSacado = contaCorrenteLuzia.sacar(100)
-// console.log(valorSacado)
-//Exibir minha conta corrente
-console.log(contaCorrenteLuzia)
+//Exibir minha conta corrente e cliente
+console.log("Cliente:", clienteOne)
+console.log("Conta corrente:", contaCorrenteLuzia)
+console.log("Quantidade de contas:", contaCorrente.numeroDeContas)
+//Null and undefined
+//null ->  quando o valor não significa nada e está nulo
+// undefined -> quando o usuário esqueceu de colocar um valor ,então fica indefinido
