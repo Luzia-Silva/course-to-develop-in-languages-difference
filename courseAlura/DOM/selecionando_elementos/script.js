@@ -15,7 +15,7 @@ document.getElementsByName("name")
 document.getElementsByTagName("input")
 
 //uso dos querys - como o querySelector e querySelectorAll
-//querySelector trás somente o primeiro
+//querySelector trás somente o selecionando_elementos
 document.querySelector("#title"); //para usa-lo para selecionar id, você precisa colocar "#' antes
 document.querySelector("button")//seleciona os bottons da page
 
