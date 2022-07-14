@@ -17,6 +17,7 @@ export default defineComponent({
     }
   },
   //Informação dinâmica -> Ele monitora a informação e se atualiza com o tempo
+  // uma função "getter" computada (computed getter)
   computed:{
     tempoDecorrido() : string{
       // a metodo Date calcula em milesegundo, por isso houve a multiplicação por 1000

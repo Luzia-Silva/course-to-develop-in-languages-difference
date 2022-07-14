@@ -4,15 +4,12 @@
     <!--Passamos para o elemento via props o elemento pai-->
     <Cronometro :tempoEmSegundos="tempoEmSegundos" />
     <!-- O @click  é nativo do proprio vue e ele pega os clicks do usário-->
-    <button class="button" @click="iniciar" :disabled="cronometroRodando">
+    <Button @click="iniciar">
       <!-- Se o cronometroRodando igual a disabled='false', se ele onclick=> "iniciar" fica igual há disabled='true'-->
-      <span class="icon">
-              <i class="fas fa-play"></i>
-            </span>
-      <span>play</span>
-    </button>
+
+    </Button>
     <!--o disabled com os :  na frente faz com que ele pegue o estado de cronometroRodando-->
-    <button class="button" @click="finalizar" :disabled="!cronometroRodando">
+    <button class="button" @click="finalizar" >
             <span class="icon">
                 <i class="fas fa-stop"></i>
             </span>
@@ -24,11 +21,13 @@
 <script>
 import {defineComponent} from "vue";
 import Cronometro from "@/components/Cronometro";
+import Button from "@/components/Button";
 
 export default defineComponent({
   name: `Temporizador`,
-  emits: ['aoTemporizadorFinalizado'],
+  emits: ['aoTemporizadorFinalizado'], //Ele emite os eventos
   components: {
+    Button,
     Cronometro
   },
   //São os dados/variavés
@@ -36,7 +35,6 @@ export default defineComponent({
     return{
       tempoEmSegundos:0,
       cronometro: 0,
-      cronometroRodando: false
     }
   },
   // São as funções que o usuário pode fazer os metodos
@@ -55,7 +53,7 @@ export default defineComponent({
       //para o cronometro
       clearInterval(this.cronometro)
       //é um metodo
-      this.$emit('aoTemporizador', this.tempoEmSegundos)
+      this.$emit('aoTemporizadorFinalizado', this.tempoEmSegundos)//emitindo evento ao finalizar
       this.tempoEmSegundos = 0
     }
   }

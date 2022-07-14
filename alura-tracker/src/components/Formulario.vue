@@ -2,10 +2,17 @@
   <div class="box">
     <div class="columns">
       <div class="column is-8" aria-label="Formulário para agendamento de banho para gatos">
-        <input  type="text" class="input" placeholder="Qual é o nome da tarefa que você quer executar?" >
+        <input
+            type="text"
+            class="input"
+            placeholder="Qual é o nome da tarefa que você quer executar?"
+            v-model="descricao"
+        >
+<!--        v-model faz o link com o estado -->
       </div>
       <div class="column">
-        <Temporizador />
+<!--        Ele está fazendo referência ao emtis e está emetindo o evento/method que finalizarTarefa-->
+        <Temporizador @aoTemporizadorFinalizado="finalizarTarefa"/>
       </div>
     </div>
   </div>
@@ -19,6 +26,20 @@ export default defineComponent({
   name: `Formulario`,
   components: {
     Temporizador
+  },
+  //retorna o estado ou dados
+  data(){
+    return {
+      descricao: ''
+    }
+  },
+  methods:{
+    finalizarTarefa(tempoDecorrido: number): void{
+      console.log(tempoDecorrido)
+      console.log(this.descricao)
+      //limpando input
+      this.descricao = ''
+    }
   }
 });
 </script>
