@@ -42,5 +42,4 @@ function scrollWindows (){
      document.querySelector('.button-red').style.display = 'block'
   }
 }
-
 window.addEventListener('scroll', scrollWindows)
