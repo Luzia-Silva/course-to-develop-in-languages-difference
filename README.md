@@ -1,12 +1,16 @@
 
-# Course-to-develop-in-languages
-Aqui migles dentro das branchs você vai encontrar todo material que eu uso para estudar. 
-Então, cada branch é uma linguagem de programação, framework ou BD, enfim qualquer coisa. 
+# Angular
+A documentação oficial para uso na construção desse projeto/estudo
+- [Angular Documentação](https://angular.io/docs)
 
-Terá os exercicios feitos, anotações e links. 
-Tudooo public para nosotros!!!
+## O que é Angular? 
 
-Bom, quiser saber o que eu estudo, acessa aí. 
-É noisss!
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+De acordo com a documentação oficial ro angular é uma plataforma de desenvolvimento, construída em TypeScript. Como plataforma, o Angular inclui:
+
+- Uma estrutura baseada em componentes para a construção de aplicações web escaláveis
+- Uma coleção de bibliotecas bem integradas que abrangem uma ampla variedade de recursos, incluindo roteamento, gerenciamento de formulários, comunicação cliente-servidor e muito mais
+- Um conjunto de ferramentas para desenvolvedores para ajudá-lo a desenvolver, construir, testar e atualizar seu código.
+
+# Vídeos aulas usados para aprender
+- [APRENDA ANGULAR DO ZERO - primeiro passos - Fernanda Kipper](https://youtu.be/OmkmeBOAg44)
