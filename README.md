@@ -1,5 +1,5 @@
 
-# Course-to-develop-in-languages
+# development-courses
 Aqui migles dentro das branchs você vai encontrar todo material que eu uso para estudar. 
 Então, cada branch é uma linguagem de programação, framework ou BD, enfim qualquer coisa. 
 
